@@ -2,8 +2,28 @@
 
 * {
   box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary-color {
+  color: #E5BE68;
+}
+
+.bg-color {
+  background-color: #0B0B0B;
+}
+
+.bg-color-second {
+  background-color: #EDEDEB;
+}

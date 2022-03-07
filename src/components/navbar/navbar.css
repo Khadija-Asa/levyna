@@ -1,0 +1,79 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-menu svg {
+  cursor: pointer;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar-logo {
+  width: 100px;
+}
+
+.navbar-menu-links-mobile a {
+  font-size: 1.1rem;
+  margin-right: 1.75rem;
+}
+
+.navbar-menu-links-mobile a:hover {
+  color: #E5BE68;
+  text-decoration: 2px underline #E5BE68;
+}
+
+.navbar-menu-mobile {
+  background: #0B0B0B;
+  border-radius: 0 0 0 10px;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 200px;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  text-align: end;
+  top: 40px;
+}
+
+.navbar-social-media-mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-social-media-mobile a {
+  font-size: 25px;
+  padding: .5rem;
+}
+
+.navbar-social-media-mobile a:hover {
+  color: #E5BE68;
+}
+
+.navbar-button-mobile button {
+  background-color: #E5BE68;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: .75rem;
+  padding: .75rem 1rem;
+  display: flex;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .navbar-links,
+  .navbar-social-media {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-menu {
+    display: none;
+  }
+}
