@@ -1,4 +1,6 @@
-.navbar {
+/* MOBILE CSS */
+
+.navbar-menu {
   display: flex;
   flex-direction: row;
 }
@@ -11,13 +13,15 @@
   color: #fff;
 }
 
-.navbar-logo {
-  width: 100px;
+.navbar img {
+  width: 8rem;
 }
 
 .navbar-menu-links-mobile a {
-  font-size: 1.1rem;
-  margin-right: 1.75rem;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  line-height: 2rem;
 }
 
 .navbar-menu-links-mobile a:hover {
@@ -30,12 +34,12 @@
   border-radius: 0 0 0 10px;
   flex-direction: column;
   justify-content: center;
-  min-width: 200px;
+  min-width: 220px;
   padding: 1rem;
   position: absolute;
   right: 0;
   text-align: end;
-  top: 40px;
+  top: 58px;
 }
 
 .navbar-social-media-mobile {
@@ -60,13 +64,27 @@
   font-weight: 600;
   margin: 0 auto;
   margin-top: .75rem;
+  margin-bottom: 1rem;
   padding: .75rem 1rem;
   display: flex;
   justify-items: center;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+  .navbar-menu-mobile {
+    min-width: 300px;
+    padding: 1rem;
+  }
+  .navbar-menu-links-mobile a {
+    line-height: 2.2rem;
+  }
+  
+}
+
 @media screen and (max-width: 1023px) {
-  .navbar-links,
+  .navbar-container,
   .navbar-social-media {
     display: none;
   }
@@ -75,5 +93,45 @@
 @media screen and (min-width: 1024px) {
   .navbar-menu {
     display: none;
+  }
+}
+
+/* DESKTOP CSS */
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  nav li {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 20px;
+  }
+  .navbar a:hover {
+    color: #E5BE68;
+    text-decoration: none;
+  }
+  .social-media {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  .navbar-social-media button {
+    background-color: #E5BE68;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .75rem 1rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  nav li {
+    font-size: 1.2rem;
+  }
+  .social-media {
+    margin-right: 15px;
   }
 }
