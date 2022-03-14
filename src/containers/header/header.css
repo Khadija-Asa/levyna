@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-items: center;
   padding: 30px 5%;
+  position: absolute;
 }
 
 .home-first-paragraph {
@@ -32,6 +33,7 @@
 .home-link {
   font-weight: 600;
   margin-top: 40px;
+  margin-bottom: 175px;
 }
 
 .home-link a:hover {

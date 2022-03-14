@@ -3,6 +3,7 @@
 .navbar-menu {
   display: flex;
   flex-direction: row;
+  z-index: 3;
 }
 
 .navbar-menu svg {

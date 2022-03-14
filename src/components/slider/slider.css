@@ -1,0 +1,90 @@
+/* MOBILE CSS */
+
+.slider {
+  top: 430px;
+  position: relative;
+  margin-bottom: 1000px;
+}
+
+.slider h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 55px 0 30px 5%;
+}
+
+.slider-card img {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 285px;
+}
+
+.slider-img1,
+.slider-img2,
+.slider-img3 {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+}
+
+.card-img1,
+.card-img2,
+.card-img3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.card-text {
+  background-color: #0B0B0B;
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  padding: 3% 5%;
+  position: absolute;
+  z-index: 2;
+}
+
+.card-text p {
+  margin-bottom: 0;
+}
+
+.card-text span {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.card-3 .card-subtitle {
+  text-transform: inherit;
+}
+
+.card-title {
+  color: #4E4E4E !important;
+  font-size: .70rem;
+  font-style: italic;
+}
+
+.card-subtitle {
+  font-size: .80rem;
+  font-weight: 600;
+}
+
+.card-1 {
+  margin-right: 135px;
+}
+
+.card-2 {
+  margin-right: 140px;
+}
+
+.card-3 {
+  margin-right: 80px;
+}
