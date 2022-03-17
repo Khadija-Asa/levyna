@@ -1,0 +1,38 @@
+/* MOBILE CSS */
+
+.body-partners {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.body-partners img {
+  display: wrap;
+  padding: 0 10px;
+  width: 150px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 599px) {
+  .partners-hashicorp {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .body-partners img {
+    width: 200px;
+  }
+}
+ 
+@media screen and (min-width: 768px) {
+  .body-partners img {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .body-partners img {
+    width: 200px;
+  }
+}
