@@ -1,0 +1,104 @@
+/* MOBILE CSS */
+
+.contact {
+  background: url(../../assets/salon-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 200px -50px 265px 0px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 200px -50px 265px 0px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 200px -50px 265px 0px rgba(0,0,0,0.75) inset;
+  padding: 50px 5%;
+  width: 100%;
+}
+
+.contact .highlight {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 1%, rgb(0, 0, 0, 0) 40%, rgba(218,191,111,1) 100%, rgb(0, 0, 0) 100%);
+  text-transform: capitalize;
+}
+
+.contact-text {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-list svg {
+  color: #E5BE68;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.contact-form label {
+  font-size: .90rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.contact-form input,
+textarea {
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: .70rem;
+  margin-top: 5px;
+  padding: 12px;
+  width: 100%;
+}
+
+.contact-form button {
+  background-color: #E5BE68;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px;
+  width: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    justify-content: space-around;
+  } 
+  .contact-text {
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    text-align: inherit;
+    line-height: 2.5rem;
+  }
+  .contact-text h4 {
+    font-size: 2.5rem;
+  }
+  .contact-list svg {
+    font-size: 20px;
+  } 
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-form {
+    padding: 30px;
+  }
+  .contact-form label {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+  }
+  .contact-form input,
+  textarea {
+    font-size: .80rem;
+    margin-top: 10px;
+    padding: 15px;
+  }
+}

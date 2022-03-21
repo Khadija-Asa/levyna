@@ -19,7 +19,7 @@ const Body = () => {
         <img className='partners-hashicorp' src={ hashicorp } alt="Logo partenaire HashiCorp" />
       </div>
 
-      <div className="body-presentation">
+      <div className="body-presentation" id='interior'>
         <img src={ presentation } alt="Image de présentation" />
         <br /> 
         <br />
