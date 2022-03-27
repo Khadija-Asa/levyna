@@ -1,0 +1,82 @@
+/* MOBILE CSS */
+
+.footer {
+  padding: 50px 5%;
+}
+
+.footer-text,
+.footer li {
+  color: #8B8B8A;
+}
+
+.footer-text img{
+  width: 50%;
+}
+
+.footer h5,
+.footer li {
+  text-transform: capitalize;
+}
+
+.footer-copyright {
+  background-color: #E5BE68;
+  text-align: center;
+  padding: 5%;
+}
+
+.footer-copyright h6,
+.footer-copyright svg {
+  font-size: .90rem;
+}
+
+.footer-copyright ul {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.footer-copyright li {
+  display: flex;
+  margin: 5px;
+  text-align: center;
+}
+
+.footer-copyright svg {
+  color: #0B0B0B;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 605px) {
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .footer-copyright {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+  }
+  .footer-copyright h6 {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+  .footer-copyright {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+  }
+  .footer-copyright h6 {
+    margin-bottom: 0;
+  }
+}
